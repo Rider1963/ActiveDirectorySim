@@ -1,4 +1,4 @@
 # ActiveDirectorySim
 
  
-Simulate AD operation trought a Powershell script. 
+Simulate AD operation through a Powershell script. 
