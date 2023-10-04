@@ -16,13 +16,11 @@ Following actions are currently available:
 - Group Deletion moving group's users to another group randomly chosed
   
 
-Don't forget to properly configure the parameters shown below 
+Don't forget to properly configure script parameters below
 
-
-#                                                                        #
-# -----------------  Script Parameters Initialization  ----------------- #
-#                                                                        #
-
+                                                                        
+ -----------------  Script Parameters Initialization  ----------------- 
+                                                                        
 $global:LogPath     = "C:\ADSym\LastRunLog.txt"  # --- Last run Log file full path
 $global:StartUsers  = "10"                       # Initial number of users to be created before the standard pocess starts
 $global:StartGroups = "4"                        # Initial number of groups to be created before the standard pocess starts
@@ -34,11 +32,8 @@ $OU_groups          = "OU=xGen,OU=Groups,DC=YourDomain,DC=local"     # --- OU wh
 $firstnames         = "C:\ADSym\FirstNames.txt"                      # --- Users names file full path
 $lastnames          = "C:\ADSym\LastNames.txt"                       # --- Users last names file full path
 $groupnames         = "C:\ADSym\GroupNames.txt"                      # --- Groups names file full path
-
-
-#                                                                               #
-# -----------------  End of Script Parameters Initialization  ----------------- #
-#                                                                               #
+                                                                  
+ -----------------  End of Script Parameters Initialization  -----------------                         
 
 
 Run the script from an Administrative Powershell Amministrativa or schedule it through the Windows scheduler.
